@@ -1,0 +1,13 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Regenerated results
+/outputs/
+
+/.julia/
