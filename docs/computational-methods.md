@@ -14,11 +14,11 @@ chosen set $G$ and compute the Hamming distance
 $d_g = \sum_i \mathbf{1}[x_i \ne (gx)_i]$. Let $p_d$ be the fraction of
 transformations giving distance $d$. The implementation computes
 
-$
+```math
 B_G(x) =
 \frac{-\sum_{d:p_d>0} p_d \log p_d}{\log |G|}
 \frac{\max_{g \in G} d_g}{|x|},
-$
+```
 
 where $|x|$ is the number of cells and $|G|$ is the number of
 transformations used in that calculation. The identity contributes
@@ -150,12 +150,12 @@ corresponding `outputs/figureNN_full/` directory. Each file has five
 rows and 100 columns. A pair of entries stores $\sum_r B_r$ and
 $\sum_r B_r^2$ for one component and observation. The plot uses
 
-$
+```math
 \bar B = \frac{\sum_r B_r}{M}, \qquad
 \sigma = \sqrt{\frac{\sum_r B_r^2}{M} - \bar B^2}, \qquad M=3000.
-$
+```
 
-Te shaded bands show $\bar B \pm \sigma$, the spread across
+The shaded bands show $\bar B \pm \sigma$, the spread across
 realizations. Monte Carlo standard errors of the mean would instead
 scale that spread by $1/\sqrt{M}$.
 

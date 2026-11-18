@@ -52,6 +52,8 @@ asymmetry. It also documents the simulation settings and how the
 notebooks turn simulation outputs and archived data into figures and
 tables.
 
+[Computational methods and reproducibility](docs/computational-methods.md)
+
 ## Errata
 
 - **Figure 1 panel labels.** “Hamming (RGB)” should read “Hamming
